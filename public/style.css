@@ -3,6 +3,10 @@ h2{
     color:whitesmoke;
 
 }
+*{
+  font-family: 'Roboto', sans-serif;
+  cursor: cell;
+}
 
 body{
     
@@ -14,6 +18,7 @@ body{
       margin: 0;
       
 }
+
  
 
  
@@ -154,21 +159,27 @@ a {
      
   }
   .text-primary {
-    color:#1E90FF;
-    margin-left:150px ;
+    color:black;
+    margin-right: 800px;
+    background-color: wheat;
+    margin-left:375px ;
   }
   .lead {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    margin-left:150px ;
-    color:#1E90FF;
+    margin-left:375px ;
+    background-color: thistle;
+    margin-right: 700px;
+    color: grey ;
   }
   /* .form{
     display: ;
   } */
    .form-group {
-    margin: 1.2rem 0;
-    margin-left:150px ;
+    margin: 1.2rem 10cm;
+    margin-left:375px ;
+    color:yellow ;
+    
         
   }
    
@@ -187,11 +198,30 @@ a {
   width: 70%;
   padding: 0.4rem;
   font-size: 1.2rem;
-  border: 1px solid #ccc;
-  
+  border: 1px solid #ccc;  
 }
  
 .registerbtn {
   font: inherit;
+  margin-left:375px ;
+
   
 } 
+
+
+.customerlanding {
+  position: relative;
+  background: url('./canteen.jpg') no-repeat center center/cover;
+  height: 100vh;
+}
+.registerlanding {
+  position: relative;
+  background: url('./Canteenreg.jpg') no-repeat center center/cover;
+  height: 130vh;
+}
+
+.adminlanding {
+  position: relative;
+  background: url('./Canteenreg.jpg') no-repeat center center/cover;
+  height: 130vh;
+}
