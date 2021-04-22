@@ -6,10 +6,9 @@ const home=require('./routes/home');
 const bodyParser=require('body-parser');
 const passport=require('passport');
 const upload=require('express-fileupload');
-const session=require('express-session');
+const session=require('cookie-session');
 const flash=require('connect-flash');
 const app=express();
-const MongoStore = require('connect-mongo')(session);
 
 
 app.use(express.static(path.join(__dirname,'public')));
