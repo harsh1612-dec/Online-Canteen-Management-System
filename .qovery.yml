@@ -3,6 +3,8 @@ application:
   name: "online-canteen-management-system"
   project: "CanteenManagementSystem"
   organization: "QoveryCommunity"
+  port: 4341
+
 routers:
 - name: "main-online-canteen-management-system"
   routes:
