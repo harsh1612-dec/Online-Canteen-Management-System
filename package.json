@@ -5,14 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/harsh1612-dec/Online-Canteen-Management-System.git"
   },
   "keywords": [],
-  "author": "Harsh and prakhar",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/harsh1612-dec/Online-Canteen-Management-System/issues"
