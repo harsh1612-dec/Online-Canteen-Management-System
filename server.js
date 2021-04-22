@@ -79,11 +79,10 @@ mongoose.connect("mongodb+srv://admin123:cmsoops@cluster.3qqr6.mongodb.net/<dbna
   useUnifiedTopology: true,
   useCreateIndex:true,
   useFindAndModify:false
-},
-()=>console.log('db connected'));
+});
 
 
 
 const port=process.env.PORT || 4341;
 
-app.listen(port, ()=>console.log(`The server has started at ${port}`));
+app.listen(port);
