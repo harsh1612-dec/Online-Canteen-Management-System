@@ -39,7 +39,7 @@ hr {
   cursor: pointer;
   width: 10%;
   opacity: 0.9;
-  margin-left:150px ;
+  margin-left:375px ;
 }
 
 .registerbtn:hover {
@@ -137,7 +137,7 @@ a {
     height: 100%;
   }   
   .success{
-    margin-left:150px ;
+    margin-left:375px ;
     background-color:gainsboro;
     width:50%;
     color:black;
@@ -145,7 +145,7 @@ a {
     padding: 10px;
   }
   .fail{
-    margin-left:150px ;
+    margin-left:375px ;
     background-color:gainsboro;
     width:50%;
     color:red;
@@ -222,6 +222,6 @@ a {
 
 .adminlanding {
   position: relative;
-  background: url('./Canteenreg.jpg') no-repeat center center/cover;
+  background: url('./Canteenadm.jpg') no-repeat center center/cover;
   height: 130vh;
 }
