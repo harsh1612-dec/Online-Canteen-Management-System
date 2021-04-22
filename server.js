@@ -27,9 +27,7 @@ app.use(bodyParser.json())
 app.use(session({
     secret:'cms',
     resave:true,
-    saveUninitialized:true,
-    store: new MongoStore(options)
-}));
+    saveUninitialized:true}));
 
 app.use(flash());
 
