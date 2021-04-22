@@ -1,0 +1,11 @@
+---
+application:
+  name: "online-canteen-management-system"
+  project: "CanteenManagementSystem"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-online-canteen-management-system"
+  routes:
+  - application_name: "online-canteen-management-system"
+    paths:
+    - "/*"
