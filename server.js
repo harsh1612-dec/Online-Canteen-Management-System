@@ -9,6 +9,8 @@ const upload=require('express-fileupload');
 const session=require('express-session');
 const flash=require('connect-flash');
 const app=express();
+const MongoStore = require('connect-mongo')(session);
+
 
 app.use(express.static(path.join(__dirname,'public')));
 
@@ -25,7 +27,8 @@ app.use(bodyParser.json())
 app.use(session({
     secret:'cms',
     resave:true,
-    saveUninitialized:true
+    saveUninitialized:true,
+    store: new MongoStore(options)
 }));
 
 app.use(flash());
